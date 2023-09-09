@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=4309ef7d_002Dcd7a_002D43f4_002Dad24_002D84d5b790f2f0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddScore_WithNormalValues_ReturnsCreated" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::91FE7E5B-F1F2-4406-85AF-22B272A0D16E::net7.0::Dabernasho.IntegrationTests.ControllerTests.Leaderboards.LeaderboardTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c68c6057_002Dd3dc_002D47c8_002D9a2f_002D394f02956e71/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddScore_WithNormalValues_ReturnsCreated #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::91FE7E5B-F1F2-4406-85AF-22B272A0D16E::net7.0::Dabernasho.IntegrationTests.ControllerTests.Leaderboards.LeaderboardTests.AddScore_WithNormalValues_ReturnsCreated&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

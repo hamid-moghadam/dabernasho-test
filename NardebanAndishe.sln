@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dabernasho.Api", "src\Dabernasho.Api\Dabernasho.Api.csproj", "{E71B7A92-ED9F-4A54-A774-4ED3AC8C7889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dabernasho.IntegrationTests", "tests\Dabernasho.IntegrationTests\Dabernasho.IntegrationTests.csproj", "{91FE7E5B-F1F2-4406-85AF-22B272A0D16E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E71B7A92-ED9F-4A54-A774-4ED3AC8C7889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E71B7A92-ED9F-4A54-A774-4ED3AC8C7889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E71B7A92-ED9F-4A54-A774-4ED3AC8C7889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E71B7A92-ED9F-4A54-A774-4ED3AC8C7889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91FE7E5B-F1F2-4406-85AF-22B272A0D16E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91FE7E5B-F1F2-4406-85AF-22B272A0D16E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91FE7E5B-F1F2-4406-85AF-22B272A0D16E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91FE7E5B-F1F2-4406-85AF-22B272A0D16E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
