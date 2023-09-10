@@ -18,11 +18,4 @@ public class LeaderboardController : LeaderboardControllerBase
         await _leaderboardService.SetScoreAsync(addScoreInputDto);
         return Results.Ok();
     }
-    
-    [HttpPost]
-    public async Task<IResult> Reset()
-    {
-        await _leaderboardService.ResetScoresAsync();
-        return Results.Ok();
-    }
 }
