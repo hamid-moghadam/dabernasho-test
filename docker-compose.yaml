@@ -9,11 +9,12 @@ services:
   api:
       container_name: dabernasho
       build:
-        context: .
-        dockerfile: src/Dabernasho.Api/Dockerfile
+        context: ./src
+        dockerfile: Dabernasho.Api/Dockerfile
       ports:
         - "5089:80"
       environment:
         - REDIS_ENDPOINT_URL=redis:6379,password=Test123
+        - Configs:ResetScoreJob:Cron=0 0 12 ? * FRI *
       depends_on:
         - redis
