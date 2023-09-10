@@ -5,7 +5,7 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
 WORKDIR /src
 COPY ["src/Dabernasho.Api/Dabernasho.Api.csproj", "Dabernasho.Api/"]
-RUN dotnet restore "Dabernasho.Api.csproj"
+RUN dotnet restore "src/Dabernasho.Api/Dabernasho.Api.csproj"
 COPY . .
 WORKDIR "/src/Dabernasho.Api"
 RUN dotnet build "Dabernasho.Api.csproj" -c Release -o /app/build
