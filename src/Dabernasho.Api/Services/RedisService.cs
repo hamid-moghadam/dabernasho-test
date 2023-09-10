@@ -17,7 +17,7 @@ public class RedisLeaderboardService : ILeaderboardService
 
     public async Task SetScoreAsync(AddScoreInputDto input)
     {
-        await _redisClient.SortedSetAddAsync(input.Stat, input.Username, input.Score);
+        await _redisClient.SortedSetAddAsync(input.Stat, input.Username, input.Score!.Value);
         await _redisClient.SetAddAsync(LeaderboardsKey, input.Stat);
     }
 
