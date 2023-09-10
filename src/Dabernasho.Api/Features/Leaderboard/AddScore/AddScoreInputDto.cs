@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Dabernasho.Api.Features.Leaderboard.AddScore;
 
-public record AddScoreInputDto(string Stat, double Score, string Username);
+public record AddScoreInputDto([Required] string Stat, [Required] double? Score, [Required] string Username);

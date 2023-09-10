@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace Dabernasho.Api.Features.Leaderboard.GetScores;
 
-public record GetScoreInputDto(string Stat, int Count = 20);
+public record GetScoreInputDto([Required] string Stat, int Count = 20);
